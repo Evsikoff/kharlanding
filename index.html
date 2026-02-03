@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>喀哈尔：陷阱之城｜选择驱动的黑暗奇幻互动小说</title>
+  <meta name="description" content="在喀哈尔——一座以机关与谎言闻名的边境之城里，每一次选择都可能让你活下去或当场结束。多分支剧情、属性判定、回合制战斗与运气检定。" />
+  <style>
+    :root { --bg:#0b0f14; --card:#121826; --text:#e6edf3; --muted:#9aa4b2; --accent:#7c5cff; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:var(--bg); color:var(--text); }
+    a{ color:inherit; text-decoration:none; }
+    .wrap{ max-width:1100px; margin:0 auto; padding:0 20px; }
+    header{ position:sticky; top:0; background:rgba(11,15,20,.8); backdrop-filter: blur(10px); border-bottom:1px solid rgba(255,255,255,.06); z-index:10; }
+    nav{ display:flex; align-items:center; justify-content:space-between; padding:14px 0; gap:14px; }
+    .logo{ font-weight:800; letter-spacing:.3px; }
+    .links{ display:flex; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:14px; }
+    .btn{ display:inline-block; padding:10px 14px; border-radius:12px; background:var(--accent); font-weight:700; }
+    .btn.secondary{ background:transparent; border:1px solid rgba(255,255,255,.16); color:var(--text); }
+    .hero{ padding:64px 0 30px; }
+    .hero-grid{ display:grid; grid-template-columns: 1.2fr .8fr; gap:22px; align-items:start; }
+    .badge{ display:inline-flex; gap:10px; align-items:center; padding:8px 12px; border-radius:999px; background:rgba(124,92,255,.12); color:#cfc6ff; font-size:13px; border:1px solid rgba(124,92,255,.25); }
+    h1{ margin:14px 0 10px; font-size:44px; line-height:1.08; }
+    .lead{ color:var(--muted); font-size:18px; line-height:1.6; max-width:58ch; }
+    .cta{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; }
+    .mini{ margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+    .card{ background:var(--card); border:1px solid rgba(255,255,255,.08); border-radius:18px; padding:18px; }
+    .mock{ height:260px; border-radius:16px; background:linear-gradient(135deg, rgba(124,92,255,.22), rgba(255,255,255,.05));
+           border:1px dashed rgba(255,255,255,.18); display:flex; align-items:center; justify-content:center; color:var(--muted); }
+    section{ padding:34px 0; }
+    h2{ margin:0 0 10px; font-size:28px; }
+    .grid3{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .grid2{ display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+    .muted{ color:var(--muted); line-height:1.7; }
+    .k{ font-weight:800; }
+    footer{ padding:28px 0 44px; border-top:1px solid rgba(255,255,255,.08); color:var(--muted); }
+    @media (max-width: 880px){
+      .hero-grid{ grid-template-columns:1fr; }
+      h1{ font-size:36px; }
+      .grid3, .grid2{ grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo">喀哈尔：陷阱之城</div>
+      <div class="links">
+        <a href="#features">玩法特色</a>
+        <a href="#story">剧情世界</a>
+        <a href="#encounters">角色与遭遇</a>
+        <a href="#media">截图/视频</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a class="btn" href="#play">立即体验</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="badge">互动小说 · 黑暗奇幻 · 多分支</div>
+        <h1>在喀哈尔，<br/>选择就是你的护甲。</h1>
+        <p class="lead">
+          一座以机关与谎言闻名的边境之城。你从南门踏入，目标却在北门之外——
+          管理生命、金币、技艺与运气，穿过陷阱、战斗与交易，找到开启北门的咒语线索。
+        </p>
+        <div class="cta" id="play">
+          <a class="btn" href="https://YOUR-LINK-HERE">立即试玩</a>
+          <a class="btn secondary" href="https://YOUR-LINK-HERE">加入愿望单 / 关注更新</a>
+        </div>
+        <div class="mini">
+          <span>多分支剧情</span>
+          <span>·</span>
+          <span>属性判定</span>
+          <span>·</span>
+          <span>回合制战斗</span>
+          <span>·</span>
+          <span>运气检定</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="mock">这里放主视觉/宣传图（16:9 或 4:3）</div>
+        <p class="muted" style="margin:12px 0 0;">
+          建议：城门审问、监狱对话、战斗界面、符文选择界面。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>玩法特色</h2>
+      <p class="muted">喀哈尔不欢迎你。它只尊重两件事：谨慎与代价。</p>
+      <div class="grid3">
+        <div class="card">
+          <div class="k">选择驱动</div>
+          <p class="muted">行贿、沉默、反抗、探索——每个决定都会改变资源与后续遭遇。</p>
+        </div>
+        <div class="card">
+          <div class="k">四项属性</div>
+          <p class="muted">生命、金币、技艺、运气：它们决定你能否谈判、战斗、逃生与通关。</p>
+        </div>
+        <div class="card">
+          <div class="k">骰子战斗</div>
+          <p class="muted">回合制对抗 + 运气抉择：你可以赌一次翻盘，也可能把自己推向深渊。</p>
+        </div>
+        <div class="card">
+          <div class="k">城市即迷宫</div>
+          <p class="muted">陷阱、怪物、骗子、赌场与集市——每条路都可能是答案，也可能是埋伏。</p>
+        </div>
+        <div class="card">
+          <div class="k">道具与奇物</div>
+          <p class="muted">护符、戒指、药剂与链条等物品，能在关键时刻改变你的结局。</p>
+        </div>
+        <div class="card">
+          <div class="k">符文分支</div>
+          <p class="muted">面对符文选择，你将打开不同的剧情之门，走向截然不同的命运。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="story">
+    <div class="wrap">
+      <h2>剧情世界</h2>
+      <div class="grid2">
+        <div class="card">
+          <div class="k">喀哈尔：陷阱之城</div>
+          <p class="muted">
+            传说这里曾是河盗与亡命徒的巢穴。如今它仍以机关、邪物与暴力闻名，
+            被称为「陷阱之城」。你必须从南门入城，寻找开启北门的咒语线索，前往巴克兰。
+          </p>
+        </div>
+        <div class="card">
+          <div class="k">你的目标</div>
+          <p class="muted">
+            在一座会“反击”的城市里活下去：管理资源、识破谎言、赢下冲突，
+            在混乱中拼出通往北门的答案。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="encounters">
+    <div class="wrap">
+      <h2>角色与遭遇</h2>
+      <div class="grid3">
+        <div class="card"><div class="k">城门卫兵</div><p class="muted">一句“是谁”，可能把你变成囚犯。</p></div>
+        <div class="card"><div class="k">牢中的老人</div><p class="muted">他知道北门咒语的结构，但未必值得信任。</p></div>
+        <div class="card"><div class="k">怪物与骗子</div><p class="muted">黑精灵、活尸、赌徒与商人：线索与陷阱常常是同一个东西。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="media">
+    <div class="wrap">
+      <h2>截图 / 视频</h2>
+      <div class="grid3">
+        <div class="mock">截图位 #1</div>
+        <div class="mock">截图位 #2</div>
+        <div class="mock">截图位 #3</div>
+      </div>
+      <p class="muted" style="margin-top:10px;">把你现有的 CG、UI、战斗界面、符文选择界面放进来效果最好。</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>常见问题</h2>
+      <div class="grid2">
+        <div class="card">
+          <div class="k">这是一款视觉小说还是 RPG？</div>
+          <p class="muted">它是叙事为核心的互动小说，但包含属性判定、道具与回合制战斗等冒险要素。</p>
+        </div>
+        <div class="card">
+          <div class="k">会不会很难？</div>
+          <p class="muted">喀哈尔不友好。你可以靠策略管理资源，也可以赌运气走险路——两种都可能成功。</p>
+        </div>
+        <div class="card">
+          <div class="k">有多结局吗？</div>
+          <p class="muted">多分支推进是核心体验：你的选择会持续改变后续遭遇与资源走向。</p>
+        </div>
+        <div class="card">
+          <div class="k">支持哪些平台？</div>
+          <p class="muted">这里填写：Windows / Android / Web（按你的实际发布填写）。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between;">
+      <div>© <span id="y"></span> 喀哈尔：陷阱之城</div>
+      <div>
+        <a class="btn secondary" href="mailto:YOUR@EMAIL.HERE">商务合作 / 联系我们</a>
+      </div>
+    </div>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>
